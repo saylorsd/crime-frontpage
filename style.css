@@ -1,0 +1,39 @@
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.heading {
+    height: 100vh;
+    background: url('heading-pic.jpg') no-repeat;
+    background-size: 100%;
+    overflow: auto;
+}
+
+#title-group {
+    position: absolute;
+    top: 20vh;
+}
+
+#main-title {
+    font-size: 5vw;
+    padding: 3px 10px 3px 10px;
+}
+#main-tagline {
+    font-size: 3vw;
+    padding: 3px 10px 3px 10px;
+}
+
+.overlay-text {
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.8);
+    color: white;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
