@@ -1,5 +1,13 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 h1, h2, h3, h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    text-align: left;
 }
 
 .heading {
@@ -17,6 +25,7 @@ h1, h2, h3, h4 {
 #main-title {
     font-size: 5vw;
     padding: 3px 10px 3px 10px;
+    font-weight: 600;
 }
 #main-tagline {
     font-size: 3vw;
@@ -36,4 +45,9 @@ h1, h2, h3, h4 {
 
 body {
     margin: 0;
+    background: #ECECEA;
+}
+
+#main-content {
+    margin: 0 2rem
 }
